@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: SyncedAudioToggle
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: b00050aa42a06a3439ae859f1a724a54,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 87edfce296ddba643a1e2afe6d4b260c,
     type: 2}
   udonAssembly: 
   assemblyError: 

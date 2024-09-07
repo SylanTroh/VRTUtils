@@ -36,6 +36,11 @@ namespace Sylan.VRTUtils
         {
             if (audioSource == null) return;
             if (audioSource.playOnAwake) Volume = maxVolume;
+            else
+            {
+                Volume = 0f;
+                audioSource.Play();
+            }
             SendCustomNetworkEvent(NetworkEventTarget.Owner, nameof(RequestSerialization));
         }
         void Update()

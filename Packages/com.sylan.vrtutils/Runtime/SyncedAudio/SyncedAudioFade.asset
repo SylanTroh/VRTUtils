@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: SyncedAudioFade
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 27b85680dcfd77c4186a6854b32166ee,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: dfda8bb16ffc94543a9fb8b2f084636f,
     type: 2}
   udonAssembly: 
   assemblyError: 
