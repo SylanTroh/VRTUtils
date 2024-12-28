@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c333ccfdd0cbdbc4ca30cef2dd6e6b9b, type: 3}
   m_Name: SyncedToggle
   m_EditorClassIdentifier: 
-  serializedUdonProgramAsset: {fileID: 11400000, guid: 64bb344a8189e3d4ab29e8fd4cd87d9d,
+  serializedUdonProgramAsset: {fileID: 11400000, guid: cf95f59f5692a8e4fbcf602014ab05e6,
     type: 2}
   udonAssembly: 
   assemblyError: 
-  sourceCsScript: {fileID: 11500000, guid: 6114d38fe685e6349a36580bf0c16c85, type: 3}
+  sourceCsScript: {fileID: 11500000, guid: d88cff528db18d5429be99f5f9eca495, type: 3}
   scriptVersion: 2
   compiledVersion: 2
   behaviourSyncMode: 4
