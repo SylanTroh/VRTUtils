@@ -1,9 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/AmplifyShaderEditor/Plugins/EditorResources/Templates/CustomRT.meta
+guid: 8798b91ad37b8db43a0ff8a9afc5b4cd
+========
 guid: daca988099666ec40aaa2cde22bb4935
+>>>>>>>> main:Assets/AmplifyShaderEditor.meta
 folderAsset: yes
-timeCreated: 1441276737
-licenseType: Store
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
