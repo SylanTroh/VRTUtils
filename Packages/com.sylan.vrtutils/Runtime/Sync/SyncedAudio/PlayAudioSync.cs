@@ -4,13 +4,16 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
-public class PlayAudioSync : UdonSharpBehaviour
+namespace Sylan.VRTUtils
 {
-    [SerializeField] AudioSync audioSync;
-
-    public override void Interact()
+    [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
+    public class PlayAudioSync : UdonSharpBehaviour
     {
-        audioSync.Play();
+        [SerializeField] AudioSync audioSync;
+
+        public override void Interact()
+        {
+            audioSync.Play();
+        }
     }
 }

@@ -4,12 +4,15 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-public class StopAudioSync : UdonSharpBehaviour
-{
-    [SerializeField] AudioSync audioSync;
-
-    public override void Interact()
+namespace Sylan.VRTUtils
+{    
+    public class StopAudioSync : UdonSharpBehaviour
     {
-        audioSync.Stop();
+        [SerializeField] AudioSync audioSync;
+
+        public override void Interact()
+        {
+            audioSync.Stop();
+        }
     }
 }

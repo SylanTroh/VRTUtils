@@ -4,19 +4,22 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.Udon;
 
-[UdonBehaviourSyncMode(BehaviourSyncMode.None)]
-public class PlayAnimationSync : UdonSharpBehaviour
+namespace Sylan.VRTUtils
 {
-    [SerializeField] string stateName;
-    int stateID;
-    [SerializeField] AnimationSync animationSync;
+    [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
+    public class PlayAnimationSync : UdonSharpBehaviour
+    {
+        [SerializeField] string stateName;
+        int stateID;
+        [SerializeField] AnimationSync animationSync;
 
-    private void Start()
-    {
-        stateID = Animator.StringToHash(stateName);
-    }
-    public override void Interact()
-    {
-        animationSync.PlayState(stateID);
+        private void Start()
+        {
+            stateID = Animator.StringToHash(stateName);
+        }
+        public override void Interact()
+        {
+            animationSync.PlayState(stateID);
+        }
     }
 }

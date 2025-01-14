@@ -1,9 +1,10 @@
 ﻿
+using UdonSharp;
 using UnityEngine;
 using VRC.SDK3.Components;
 using VRC.SDKBase;
 
-namespace UdonSharp.Examples.Utilities
+namespace Sylan.VRTUtils
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
     public class SyncedToggle : UdonSharpBehaviour
