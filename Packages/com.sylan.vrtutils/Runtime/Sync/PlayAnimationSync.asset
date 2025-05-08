@@ -21,7 +21,7 @@ MonoBehaviour:
   compiledVersion: 2
   behaviourSyncMode: 1
   hasInteractEvent: 1
-  scriptID: -5055818984412398202
+  scriptID: -8599763232243691956
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
@@ -176,7 +176,7 @@ MonoBehaviour:
       Data: 10|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: Sylan.VRTUtils.AnimationSync, VRTUtils.Runtime
+      Data: Sylan.VRTUtils.Sync.AnimationSync, VRTUtils.Runtime
     - Name: 
       Entry: 8
       Data: 

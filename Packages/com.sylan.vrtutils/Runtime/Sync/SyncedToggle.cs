@@ -1,15 +1,13 @@
-﻿
-using UdonSharp;
+﻿using UdonSharp;
 using UnityEngine;
-using VRC.SDK3.Components;
 using VRC.SDKBase;
 
-namespace Sylan.VRTUtils
+namespace Sylan.VRTUtils.Sync
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.Manual)]
     public class SyncedToggle : UdonSharpBehaviour
     {
-        [SerializeField, UdonSynced] bool toggle = false;
+        [SerializeField] [UdonSynced] private bool toggle;
         public GameObject[] toggleObjects;
 
         public override void Interact()
@@ -27,13 +25,9 @@ namespace Sylan.VRTUtils
 
         public void Toggle()
         {
-            foreach (GameObject toggleObject in toggleObjects)
-            {
+            foreach (var toggleObject in toggleObjects)
                 if (toggleObject != null)
-                {
                     toggleObject.SetActive(toggle);
-                }
-            }
         }
 
         public void SendToggle()
