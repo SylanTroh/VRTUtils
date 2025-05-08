@@ -10,6 +10,11 @@ namespace Sylan.VRTUtils.Sync
         [SerializeField] [UdonSynced] private bool toggle;
         public GameObject[] toggleObjects;
 
+        void Start()
+        {
+            Toggle();
+        }
+        
         public override void Interact()
         {
             Networking.SetOwner(Networking.LocalPlayer, gameObject);
